@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0d0f12">
+  <meta name="color-scheme" content="dark">
+  <title>Offline | ApexGrid</title>
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh; min-height: 100dvh; display: grid; place-items: center; text-align: center;
+      padding: calc(env(safe-area-inset-top) + 24px) calc(env(safe-area-inset-right) + 24px) calc(env(safe-area-inset-bottom) + 24px) calc(env(safe-area-inset-left) + 24px);
+      background: #0d0f12; color: #f8fafc; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.5;
+    }
+    main { max-width: 420px; }
+    h1 { font-size: 24px; margin: 16px 0 8px; }
+    h1 span { color: #ff5a52; }
+    p { color: #a8b3c4; margin-bottom: 24px; }
+    a, button {
+      display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 24px;
+      background: #e10600; color: #fff; border: 0; border-radius: 6px; font: inherit; font-weight: 600; text-decoration: none; cursor: pointer;
+    }
+    a:focus-visible, button:focus-visible { outline: 3px solid #ff5a52; outline-offset: 2px; }
+    .stripe { width: 56px; height: 6px; background: #e10600; border-radius: 3px; margin: 0 auto; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="stripe" aria-hidden="true"></div>
+    <h1>You're <span>offline</span></h1>
+    <p>This page isn't saved on your device yet. The standings and race info you've already opened are still available.</p>
+    <a href="./index.html">Open ApexGrid</a>
+    <button type="button" onclick="location.reload()">Retry</button>
+  </main>
+</body>
+</html>

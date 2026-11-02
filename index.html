@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0d0f12">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="2026 F1 Abu Dhabi Grand Prix preview, 2026 technical regulations, and monthly Top 10 Drivers Hub.">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="ApexGrid">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>ApexGrid: F1 2026 Season Hub</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="apple-touch-startup-image" href="icons/splash/splash-1290x2796.png" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="icons/splash/splash-1179x2556.png" media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="icons/splash/splash-1170x2532.png" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="icons/splash/splash-750x1334.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="icons/splash/splash-1668x2388.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div id="pwa-install-banner" class="install-banner hidden" role="region" aria-label="Install app">
+    <div class="banner-content">
+      <strong>Install ApexGrid</strong>
+      <span id="install-text">Offline access to F1 2026 rankings and specs</span>
+    </div>
+    <div class="banner-actions">
+      <button id="install-btn" class="btn btn-primary" type="button">Install</button>
+      <button id="dismiss-install" class="btn btn-ghost" type="button" aria-label="Close installation banner">✕</button>
+    </div>
+  </div>
+
+  <div class="app-top">
+    <header class="app-header">
+      <div class="header-inner">
+        <div class="brand">
+          <span class="flag-accent" aria-hidden="true"></span>
+          <h1>APEX<span>GRID</span></h1>
+          <span class="badge season-tag">2026 Season</span>
+        </div>
+        <span id="connection-status" class="status-indicator online" role="status" aria-live="polite">
+          <span class="status-dot" aria-hidden="true"></span><span id="status-text">Online</span>
+        </span>
+      </div>
+    </header>
+
+    <nav class="tab-nav" aria-label="Main navigation">
+      <div class="tab-list" role="tablist" aria-label="Sections">
+        <button class="nav-tab active" id="tab-grand-prix" data-tab="grand-prix" type="button" role="tab" aria-selected="true" aria-controls="grand-prix">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/><path d="m9.17 14.83-4.24 4.24"/></svg>
+          <span>Abu Dhabi GP</span>
+        </button>
+        <button class="nav-tab" id="tab-top-drivers" data-tab="top-drivers" type="button" role="tab" aria-selected="false" aria-controls="top-drivers" tabindex="-1">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+          <span>Top 10 Drivers</span>
+        </button>
+        <button class="nav-tab" id="tab-regulations" data-tab="regulations" type="button" role="tab" aria-selected="false" aria-controls="regulations" tabindex="-1">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          <span>2026 Tech &amp; Specs</span>
+        </button>
+      </div>
+    </nav>
+  </div>
+
+  <main class="app-main" id="main">
+    <section id="grand-prix" class="tab-pane active" role="tabpanel" aria-labelledby="tab-grand-prix">
+      <div class="hero-banner">
+        <div class="hero-tag">SEASON FINALE</div>
+        <h2>Formula 1 Etihad Airways Abu Dhabi Grand Prix 2026</h2>
+        <p class="hero-sub">Yas Marina Circuit, Yas Island • 4–6 December 2026 • Race Sunday 6 December</p>
+        <p class="hero-note">The 2026 drivers’ title is already decided: Kimi Antonelli clinched it at the Mexico City GP. Abu Dhabi closes out the final standings and the constructors’ fight.</p>
+      </div>
+
+      <div class="circuit-grid">
+        <div class="card stat-card">
+          <span class="label">Circuit Length</span>
+          <span class="value">5.281 km</span>
+          <span class="meta">16 turns</span>
+        </div>
+        <div class="card stat-card">
+          <span class="label">Race Distance</span>
+          <span class="value">58 Laps</span>
+          <span class="meta">306.183 km total</span>
+        </div>
+        <div class="card stat-card">
+          <span class="label">Weekend Format</span>
+          <span class="value">Standard</span>
+          <span class="meta">3 practices, qualifying, race (no sprint)</span>
+        </div>
+        <div class="card stat-card">
+          <span class="label">Lap Record</span>
+          <span class="value">1:26.103</span>
+          <span class="meta">M. Verstappen, 2021</span>
+        </div>
+      </div>
+
+      <div class="card detail-section">
+        <h3>Yas Marina 2026 Technical Profile</h3>
+        <p>
+          Yas Marina is a twilight-to-night race that finishes the season under the lights. Under the 2026 power unit and active aero rules, the long back straight drains the battery hard, and the slow, traction-heavy final sector around the marina punishes poor energy deployment.
+        </p>
+        <ul class="spec-list">
+          <li><strong>Overtaking hotspots:</strong> the Turn 1 braking zone and the Turn 5 hairpin at the end of the back straight.</li>
+          <li><strong>Aero:</strong> medium-downforce setups, using straight mode on the long straights and corner mode elsewhere.</li>
+          <li><strong>Tyres:</strong> Pirelli C3 (Hard), C4 (Medium), C5 (Soft), as in 2025.</li>
+        </ul>
+      </div>
+
+      <div class="card detail-section session-card">
+        <h3>Weekend Schedule (Local Time, GST)</h3>
+        <ul class="spec-list">
+          <li><strong>Fri 4 Dec:</strong> Practice 1 and Practice 2</li>
+          <li><strong>Sat 5 Dec:</strong> Practice 3, then Qualifying</li>
+          <li><strong>Sun 6 Dec:</strong> Grand Prix, 58 laps</li>
+        </ul>
+        <p class="fine-print">Check the official F1 site for confirmed session times.</p>
+      </div>
+    </section>
+
+    <section id="top-drivers" class="tab-pane" role="tabpanel" aria-labelledby="tab-top-drivers" hidden>
+      <div class="section-header">
+        <div>
+          <h2>Monthly Driver Standings</h2>
+          <p class="section-sub" id="snapshot-sub">Top 10 championship standings</p>
+        </div>
+        <div class="filter-wrap">
+          <label for="month-select" class="sr-only">Select month</label>
+          <select id="month-select" class="select-input">
+            <option value="november" selected>November 2026 (after Mexico City GP)</option>
+            <option value="october">October 2026 (after United States GP)</option>
+            <option value="september">September 2026 (after Azerbaijan GP)</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="drivers-container" class="cards-stack" aria-live="polite" aria-busy="true"></div>
+    </section>
+
+    <section id="regulations" class="tab-pane" role="tabpanel" aria-labelledby="tab-regulations" hidden>
+      <div class="card detail-section">
+        <h2>2026 Formula 1 Regulations</h2>
+        <p class="mb-4">The 2026 FIA Technical Regulations are the biggest rules change in modern open-wheel racing:</p>
+
+        <div class="reg-grid">
+          <div class="reg-item">
+            <h4>Near 50/50 Power Split</h4>
+            <p>The 1.6L V6 turbo produces roughly 400 kW, while the MGU-K output rises to 350 kW. The MGU-H is removed.</p>
+          </div>
+          <div class="reg-item">
+            <h4>100% Sustainable Fuel</h4>
+            <p>Engines run on advanced sustainable fuel with no fossil-carbon content.</p>
+          </div>
+          <div class="reg-item">
+            <h4>Active Aerodynamics</h4>
+            <p>Movable front and rear wings switch between a high-downforce corner mode and a low-drag straight mode, replacing the DRS flap.</p>
+          </div>
+          <div class="reg-item">
+            <h4>Smaller, Lighter Cars</h4>
+            <p>Width falls to 1900 mm (down 100 mm), wheelbase to 3400 mm (down 200 mm), and minimum weight to 768 kg (down 30 kg).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <p>ApexGrid • Standings checked 2 November 2026 • Unofficial fan reference, not affiliated with Formula 1 or the FIA</p>
+  </footer>
+
+  <noscript><p class="fine-print" style="padding:16px;text-align:center">ApexGrid needs JavaScript to show driver standings.</p></noscript>
+  <script src="app.js"></script>
+</body>
+</html>
