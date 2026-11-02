@@ -1,0 +1,63 @@
+{
+  "schema_version": 2,
+  "season": 2026,
+  "updated": "2026-11-02",
+  "month_order": ["september", "october", "november"],
+  "notes": [
+    "points_approx=true means the value was derived (next official table minus that race's points), not read from a published table.",
+    "car.chassis for McLaren (MCL40) is from general knowledge and was not confirmed in the sources checked. Power units are listed by manufacturer, not internal engine code."
+  ],
+  "snapshots": {
+    "september": {
+      "label": "September 2026",
+      "as_of": "After the Azerbaijan GP, 26 Sep 2026",
+      "approximate": false,
+      "drivers": [
+        {"rank":1,"id":"antonelli","name":"Andrea Kimi Antonelli","team":"Mercedes-AMG Petronas F1 Team","car":{"chassis":"Mercedes W17","power_unit":"Mercedes"},"points":302,"points_approx":false,"status":"8 GP wins so far; has led the championship since the Japanese GP","known_for":"Italian prodigy in his second F1 season, picked to step into Hamilton's Mercedes seat."},
+        {"rank":2,"id":"russell","name":"George Russell","team":"Mercedes-AMG Petronas F1 Team","car":{"chassis":"Mercedes W17","power_unit":"Mercedes"},"points":236,"points_approx":false,"status":"Won the Azerbaijan GP, cutting Antonelli's lead to 66 points","known_for":"Opened 2026 by winning the Australian GP; a qualifying specialist and Mercedes' senior driver."},
+        {"rank":3,"id":"hamilton","name":"Lewis Hamilton","team":"Scuderia Ferrari HP","car":{"chassis":"Ferrari SF-26","power_unit":"Ferrari"},"points":199,"points_approx":false,"status":"1 GP win (Barcelona-Catalunya)","known_for":"Seven-time champion in his second Ferrari season; first Ferrari podium came at the Chinese GP."},
+        {"rank":4,"id":"norris","name":"Lando Norris","team":"McLaren Mastercard F1 Team","car":{"chassis":"McLaren MCL40","power_unit":"Mercedes"},"points":186,"points_approx":false,"status":"2 GP wins, including Hungary","known_for":"Reigning (2025) world champion, carrying the number-one status at McLaren."},
+        {"rank":5,"id":"leclerc","name":"Charles Leclerc","team":"Scuderia Ferrari HP","car":{"chassis":"Ferrari SF-26","power_unit":"Ferrari"},"points":179,"points_approx":false,"status":"1 GP win; mid-season form recovery","known_for":"Monaco-born Ferrari lead with standout single-lap speed and a strong second-half recovery."},
+        {"rank":6,"id":"verstappen","name":"Max Verstappen","team":"Oracle Red Bull Racing","car":{"chassis":"Red Bull RB22","power_unit":"Red Bull Ford DM01"},"points":163,"points_approx":false,"status":"Still chasing his first GP win of 2026 at this point","known_for":"Four-time champion (2021-2024) and Yas Marina lap-record holder from his 2021 title-deciding win."},
+        {"rank":7,"id":"piastri","name":"Oscar Piastri","team":"McLaren Mastercard F1 Team","car":{"chassis":"McLaren MCL40","power_unit":"Mercedes"},"points":120,"points_approx":false,"status":"Points scorer, no 2026 wins yet","known_for":"Australian who led the 2025 title race for long stretches; missed the 2026 opener after a sighting-lap crash."},
+        {"rank":8,"id":"hadjar","name":"Isack Hadjar","team":"Oracle Red Bull Racing","car":{"chassis":"Red Bull RB22","power_unit":"Red Bull Ford DM01"},"points":86,"points_approx":false,"status":"Leading Red Bull's second car in his first season there","known_for":"French driver promoted from Racing Bulls to partner Verstappen for 2026."},
+        {"rank":9,"id":"lawson","name":"Liam Lawson","team":"Visa Cash App Racing Bulls F1 Team","car":{"chassis":"Racing Bulls VCARB 03","power_unit":"Red Bull Ford DM01"},"points":59,"points_approx":false,"status":"Racing Bulls' top points scorer","known_for":"New Zealander who returned to Racing Bulls and is known for hard, wheel-to-wheel racing."},
+        {"rank":10,"id":"gasly","name":"Pierre Gasly","team":"BWT Alpine F1 Team","car":{"chassis":"Alpine A526","power_unit":"Mercedes"},"points":41,"points_approx":false,"status":"Alpine's lead driver","known_for":"French veteran who has driven Alpine's midfield charge, including after its Zandvoort aero upgrade."}
+      ]
+    },
+    "october": {
+      "label": "October 2026",
+      "as_of": "After the United States GP, 25 Oct 2026",
+      "approximate": true,
+      "drivers": [
+        {"rank":1,"id":"antonelli","name":"Andrea Kimi Antonelli","team":"Mercedes-AMG Petronas F1 Team","car":{"chassis":"Mercedes W17","power_unit":"Mercedes"},"points":365,"points_approx":false,"status":"Won the US GP, his 9th win of 2026; 123 points clear","known_for":"Italian prodigy in his second F1 season, picked to step into Hamilton's Mercedes seat."},
+        {"rank":2,"id":"russell","name":"George Russell","team":"Mercedes-AMG Petronas F1 Team","car":{"chassis":"Mercedes W17","power_unit":"Mercedes"},"points":242,"points_approx":false,"status":"Second in the standings","known_for":"Opened 2026 by winning the Australian GP; a qualifying specialist and Mercedes' senior driver."},
+        {"rank":3,"id":"hamilton","name":"Lewis Hamilton","team":"Scuderia Ferrari HP","car":{"chassis":"Ferrari SF-26","power_unit":"Ferrari"},"points":241,"points_approx":false,"status":"One point behind Russell","known_for":"Seven-time champion in his second Ferrari season; first Ferrari podium came at the Chinese GP."},
+        {"rank":4,"id":"verstappen","name":"Max Verstappen","team":"Oracle Red Bull Racing","car":{"chassis":"Red Bull RB22","power_unit":"Red Bull Ford DM01"},"points":236,"points_approx":false,"status":"Won the Singapore sprint earlier in October; third in the US GP","known_for":"Four-time champion (2021-2024) and Yas Marina lap-record holder from his 2021 title-deciding win."},
+        {"rank":5,"id":"leclerc","name":"Charles Leclerc","team":"Scuderia Ferrari HP","car":{"chassis":"Ferrari SF-26","power_unit":"Ferrari"},"points":233,"points_approx":false,"status":"Second in the US GP","known_for":"Monaco-born Ferrari lead with standout single-lap speed and a strong second-half recovery."},
+        {"rank":6,"id":"norris","name":"Lando Norris","team":"McLaren Mastercard F1 Team","car":{"chassis":"McLaren MCL40","power_unit":"Mercedes"},"points":211,"points_approx":false,"status":"Sixth in the standings","known_for":"Reigning (2025) world champion, carrying the number-one status at McLaren."},
+        {"rank":7,"id":"piastri","name":"Oscar Piastri","team":"McLaren Mastercard F1 Team","car":{"chassis":"McLaren MCL40","power_unit":"Mercedes"},"points":144,"points_approx":true,"status":"Seventh in the standings","known_for":"Australian who led the 2025 title race for long stretches; missed the 2026 opener after a sighting-lap crash."},
+        {"rank":8,"id":"hadjar","name":"Isack Hadjar","team":"Oracle Red Bull Racing","car":{"chassis":"Red Bull RB22","power_unit":"Red Bull Ford DM01"},"points":105,"points_approx":true,"status":"Eighth in the standings","known_for":"French driver promoted from Racing Bulls to partner Verstappen for 2026."},
+        {"rank":9,"id":"lawson","name":"Liam Lawson","team":"Visa Cash App Racing Bulls F1 Team","car":{"chassis":"Racing Bulls VCARB 03","power_unit":"Red Bull Ford DM01"},"points":77,"points_approx":true,"status":"Ninth in the standings","known_for":"New Zealander who returned to Racing Bulls and is known for hard, wheel-to-wheel racing."},
+        {"rank":10,"id":"gasly","name":"Pierre Gasly","team":"BWT Alpine F1 Team","car":{"chassis":"Alpine A526","power_unit":"Mercedes"},"points":42,"points_approx":true,"status":"Tenth in the standings","known_for":"French veteran who has driven Alpine's midfield charge, including after its Zandvoort aero upgrade."}
+      ]
+    },
+    "november": {
+      "label": "November 2026",
+      "as_of": "After the Mexico City GP, 1 Nov 2026",
+      "approximate": false,
+      "drivers": [
+        {"rank":1,"id":"antonelli","name":"Andrea Kimi Antonelli","team":"Mercedes-AMG Petronas F1 Team","car":{"chassis":"Mercedes W17","power_unit":"Mercedes"},"points":380,"points_approx":false,"status":"2026 World Champion, clinched in Mexico; youngest ever","known_for":"Italian prodigy in his second F1 season, picked to step into Hamilton's Mercedes seat."},
+        {"rank":2,"id":"verstappen","name":"Max Verstappen","team":"Oracle Red Bull Racing","car":{"chassis":"Red Bull RB22","power_unit":"Red Bull Ford DM01"},"points":261,"points_approx":false,"status":"Won the Mexico City GP, moving up to P2","known_for":"Four-time champion (2021-2024) and Yas Marina lap-record holder from his 2021 title-deciding win."},
+        {"rank":3,"id":"hamilton","name":"Lewis Hamilton","team":"Scuderia Ferrari HP","car":{"chassis":"Ferrari SF-26","power_unit":"Ferrari"},"points":259,"points_approx":false,"status":"Second in Mexico; two points off P2","known_for":"Seven-time champion in his second Ferrari season; first Ferrari podium came at the Chinese GP."},
+        {"rank":4,"id":"russell","name":"George Russell","team":"Mercedes-AMG Petronas F1 Team","car":{"chassis":"Mercedes W17","power_unit":"Mercedes"},"points":250,"points_approx":false,"status":"Sixth in Mexico, dropping to fourth overall","known_for":"Opened 2026 by winning the Australian GP; a qualifying specialist and Mercedes' senior driver."},
+        {"rank":5,"id":"leclerc","name":"Charles Leclerc","team":"Scuderia Ferrari HP","car":{"chassis":"Ferrari SF-26","power_unit":"Ferrari"},"points":245,"points_approx":false,"status":"Five points behind Russell; clashed with Hamilton in Mexico","known_for":"Monaco-born Ferrari lead with standout single-lap speed and a strong second-half recovery."},
+        {"rank":6,"id":"norris","name":"Lando Norris","team":"McLaren Mastercard F1 Team","car":{"chassis":"McLaren MCL40","power_unit":"Mercedes"},"points":221,"points_approx":false,"status":"Fifth in Mexico","known_for":"Reigning (2025) world champion, carrying the number-one status at McLaren."},
+        {"rank":7,"id":"piastri","name":"Oscar Piastri","team":"McLaren Mastercard F1 Team","car":{"chassis":"McLaren MCL40","power_unit":"Mercedes"},"points":144,"points_approx":false,"status":"Post-race penalty dropped him to P16 in Mexico","known_for":"Australian who led the 2025 title race for long stretches; missed the 2026 opener after a sighting-lap crash."},
+        {"rank":8,"id":"hadjar","name":"Isack Hadjar","team":"Oracle Red Bull Racing","car":{"chassis":"Red Bull RB22","power_unit":"Red Bull Ford DM01"},"points":107,"points_approx":false,"status":"Eighth in the standings","known_for":"French driver promoted from Racing Bulls to partner Verstappen for 2026."},
+        {"rank":9,"id":"lawson","name":"Liam Lawson","team":"Visa Cash App Racing Bulls F1 Team","car":{"chassis":"Racing Bulls VCARB 03","power_unit":"Red Bull Ford DM01"},"points":83,"points_approx":false,"status":"Seventh in Mexico","known_for":"New Zealander who returned to Racing Bulls and is known for hard, wheel-to-wheel racing."},
+        {"rank":10,"id":"gasly","name":"Pierre Gasly","team":"BWT Alpine F1 Team","car":{"chassis":"Alpine A526","power_unit":"Mercedes"},"points":42,"points_approx":false,"status":"Penalised for yellow flags in Mexico, dropping to P17","known_for":"French veteran who has driven Alpine's midfield charge, including after its Zandvoort aero upgrade."}
+      ]
+    }
+  }
+}
