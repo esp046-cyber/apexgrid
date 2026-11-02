@@ -1,0 +1,110 @@
+{
+  "name": "ApexGrid: F1 2026 Abu Dhabi GP & Top 10 Drivers Hub",
+  "short_name": "ApexGrid",
+  "version": "2026-11-02",
+  "url": "https://esp046-cyber.github.io/apexgrid/",
+  "repository": "https://github.com/esp046-cyber/apexgrid",
+  "language": "en-US",
+  "theme_color": "#0d0f12",
+  "background_color": "#0d0f12",
+  "accent_color": "#e10600",
+  "description": "Abu Dhabi GP preview (4-6 December 2026), 2026 F1 technical specs, and monthly Top 10 driver standings. Installable and works offline.",
+  "keywords": [
+    "F1",
+    "Formula 1",
+    "2026",
+    "Abu Dhabi Grand Prix",
+    "Yas Marina",
+    "driver standings",
+    "Kimi Antonelli",
+    "PWA",
+    "offline"
+  ],
+  "images": {
+    "og": {
+      "url": "https://esp046-cyber.github.io/apexgrid/social/og-image.png",
+      "width": 1200,
+      "height": 630,
+      "type": "image/png",
+      "alt": "ApexGrid: Abu Dhabi Grand Prix, Yas Marina, 4-6 December 2026"
+    },
+    "square": {
+      "url": "https://esp046-cyber.github.io/apexgrid/social/og-square.png",
+      "width": 600,
+      "height": 600,
+      "type": "image/png",
+      "alt": "ApexGrid: Abu Dhabi Grand Prix, Yas Marina, 4-6 December 2026"
+    }
+  },
+  "opengraph": {
+    "og:type": "website",
+    "og:site_name": "ApexGrid",
+    "og:url": "https://esp046-cyber.github.io/apexgrid/",
+    "og:title": "ApexGrid: F1 2026 Abu Dhabi GP & Top 10 Drivers Hub",
+    "og:description": "Abu Dhabi GP preview (4-6 Dec), 2026 tech specs, and monthly Top 10 driver standings. Installable and works offline.",
+    "og:image": "https://esp046-cyber.github.io/apexgrid/social/og-image.png",
+    "og:image:width": "1200",
+    "og:image:height": "630",
+    "og:locale": "en_US"
+  },
+  "twitter": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "ApexGrid: F1 2026 Abu Dhabi GP & Top 10 Drivers Hub",
+    "twitter:description": "Abu Dhabi GP preview, 2026 tech specs, and monthly Top 10 standings. Installable PWA.",
+    "twitter:image": "https://esp046-cyber.github.io/apexgrid/social/og-image.png"
+  },
+  "platforms": {
+    "whatsapp": {
+      "reads": "Open Graph",
+      "image": "og-image.png",
+      "notes": "Keep image under about 300 KB. Cache is not purgeable; append ?v=N to the shared URL to force a new preview."
+    },
+    "telegram": {
+      "reads": "Open Graph",
+      "image": "og-image.png",
+      "notes": "Refresh a stale preview by sending the link to @WebpageBot."
+    },
+    "messenger": {
+      "reads": "Open Graph (Facebook scraper)",
+      "image": "og-image.png",
+      "notes": "Re-scrape with the Facebook Sharing Debugger."
+    },
+    "facebook": {
+      "reads": "Open Graph",
+      "image": "og-image.png",
+      "notes": "Use the Sharing Debugger at developers.facebook.com/tools/debug/ to refresh."
+    },
+    "discord": {
+      "reads": "Open Graph and theme-color",
+      "image": "og-image.png",
+      "notes": "Embed accent stripe uses the theme-color meta tag. Previews cache for a while per URL."
+    },
+    "slack": {
+      "reads": "Open Graph, falls back to Twitter tags",
+      "image": "og-image.png",
+      "notes": "Unfurl appears automatically when a link is posted."
+    },
+    "x": {
+      "reads": "twitter:card tags, falls back to Open Graph",
+      "image": "og-image.png",
+      "notes": "No public card validator is offered; compose a post to preview."
+    }
+  },
+  "event": {
+    "name": "Formula 1 Etihad Airways Abu Dhabi Grand Prix 2026",
+    "startDate": "2026-12-04",
+    "endDate": "2026-12-06",
+    "raceDay": "2026-12-06",
+    "venue": "Yas Marina Circuit, Yas Island, Abu Dhabi, United Arab Emirates",
+    "lengthKm": 5.281,
+    "laps": 58,
+    "raceDistanceKm": 306.183,
+    "corners": 16
+  },
+  "dataSnapshot": {
+    "checkedOn": "2026-11-02",
+    "afterEvent": "Mexico City Grand Prix",
+    "standingsFile": "data/standings.json",
+    "schemaVersion": 2
+  }
+}
